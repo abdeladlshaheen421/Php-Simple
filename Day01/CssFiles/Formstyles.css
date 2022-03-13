@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: radial-gradient(white, #e4c6e4, white, #e9bee9, white);
+}
+.formContainer {
+  width: 60vw;
+  margin: 5vh auto;
+  border: 2px solid grey;
+  background-image: linear-gradient(to bottom, #c93ec9, #d498d4, #f5caf5);
+}
+h2 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 36px;
+  background-color: #d498d4;
+  color: white;
+}
+label {
+  text-transform: capitalize;
+}
+.formTable {
+  width: 100%;
+}
+.formTable tr td {
+  padding: 10px;
+
+  text-align: center;
+}
+
+textarea {
+  width: 550px;
+}
+.formTable tr:nth-child(even) {
+  background-color: #cf8ccf;
+  margin: 0;
+}
+.formTable tr:nth-child(odd) {
+  background-color: #eee0ee;
+}
+.buttons {
+  text-align: center;
+}
+.buttons input {
+  padding: 10px 20px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+.formTable tr td input[type="text"],
+.formTable tr td input[type="password"] {
+  width: 50%;
+  border-radius: 5px;
+  height: 25px;
+}
